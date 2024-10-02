@@ -10,7 +10,7 @@
         <mxCell id="eTxGelSMLruOmYQVktT1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-1" target="eTxGelSMLruOmYQVktT1-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-6" value="Return tickets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTxGelSMLruOmYQVktT1-5">
+        <mxCell id="eTxGelSMLruOmYQVktT1-6" value="Return Tickets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTxGelSMLruOmYQVktT1-5">
           <mxGeometry x="-0.0875" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -18,19 +18,18 @@
         <mxCell id="eTxGelSMLruOmYQVktT1-1" value="Manage engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eTxGelSMLruOmYQVktT1-1">
+        <mxCell id="eTxGelSMLruOmYQVktT1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-2" target="eTxGelSMLruOmYQVktT1-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="432.5" y="40" as="sourcePoint" />
             <mxPoint x="237.5" y="60" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="238" y="40" />
-              <mxPoint x="238" y="54" />
+              <mxPoint x="460" y="54" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-4" value="Get tickets (dev)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTxGelSMLruOmYQVktT1-3">
+        <mxCell id="eTxGelSMLruOmYQVktT1-4" value="Get Tickets (Developpement seulement)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTxGelSMLruOmYQVktT1-3">
           <mxGeometry y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eTxGelSMLruOmYQVktT1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-2" target="eTxGelSMLruOmYQVktT1-12">
@@ -42,18 +41,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eTxGelSMLruOmYQVktT1-2" value="App contrôleur (php,epicor, etc)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-7" value="ECM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-12" target="eTxGelSMLruOmYQVktT1-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-12" target="eTxGelSMLruOmYQVktT1-1">
+        <mxCell id="eTxGelSMLruOmYQVktT1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-12" target="eTxGelSMLruOmYQVktT1-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eTxGelSMLruOmYQVktT1-27" value="Ouverture ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTxGelSMLruOmYQVktT1-22">
@@ -61,29 +51,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-12" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="230" width="30" height="60" as="geometry" />
+        <mxCell id="eTxGelSMLruOmYQVktT1-12" value="Utilisateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eTxGelSMLruOmYQVktT1-13" value="Automatique" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="380" y="340" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="410" as="sourcePoint" />
-            <mxPoint x="450" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="410" as="sourcePoint" />
-            <mxPoint x="450" y="360" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="eTxGelSMLruOmYQVktT1-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

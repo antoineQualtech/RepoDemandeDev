@@ -51,7 +51,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eTxGelSMLruOmYQVktT1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-12" target="eTxGelSMLruOmYQVktT1-28">
+        <mxCell id="eTxGelSMLruOmYQVktT1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTxGelSMLruOmYQVktT1-12" target="eTxGelSMLruOmYQVktT1-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eTxGelSMLruOmYQVktT1-33" value="Remplir formulaire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTxGelSMLruOmYQVktT1-32">
